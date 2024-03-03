@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+@font-face {
+    font-family: 'Pixel';
+    font-weight: 100;
+    font-style: normal;
+    /* src: url('/fonts/upheavtt.ttf') format('.ttf'); */
+    src: url('../fonts/upheavtt.eot') format('.eot'),
+         url('../fonts/upheavtt.woff') format('.woff'),
+         url('../fonts/upheavtt.woff2') format('.woff2'),
+         url('../fonts/upheavtt.ttf') format('truetype');
+}
+
+body{
+    background-color: #04040A;
+    padding: 2%;
+}
+
+h1, h2, h3{
+    margin: 0;
+    font-family: "Pixel";
+    color: aliceblue;
+}
+
+p{
+    margin: 0;
+    font-family: "Karla";
+    color: aliceblue;
+}
+
+image{
+    margin: 0;
+}
+
+.content{
+    margin: auto;
+    width: 500px;
+    align-self: center;
+}
+
+/* ------------------------------------------------------------------------- */
+/* HEADER */
+/* ------------------------------------------------------------------------- */
+
+.content-header{
+    margin: auto;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+
+.content-header-image{
+    content: url("../images/logo.gif");
+    width: 120px;
+}
+
+/* ------------------------------------------------------------------------- */
+/* SOCIAL MEDIA BAR */
+/* ------------------------------------------------------------------------- */
+
+.content-socialbar{
+    margin: 15px 50px 25px 50px;
+    height: 40px;
+    padding: 3px 0 3px 0;
+
+    background-color: rgb(55, 55, 55);
+    border-radius: 15px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.socialbar-icon{
+    margin: 0 10px 0 10px;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.icon-platform{
+    margin: auto;
+    padding: 2px;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    content: url('../images/favicon.ico');
+}
+
+/* ------------------------------------------------------------------------- */
+/* BUTTON LIST */
+/* ------------------------------------------------------------------------- */
+
+.content-buttonlist{
+    margin: 0;
+    display: block;
+}
+
+.buttonlist-item{
+    margin: 5px 0px 5px 0px;
+    padding: 0;
+    height: 50px;
+    display: block;
+    background-color: black;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.buttonlist-item:hover{
+    background-color: gray;
+}
+
+.buttonlist-title{
+    margin: 15px 0 0 0;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-image{
+    margin: 1px 1px 1px 1px;
+    width: 48px;
+    height: 48px;
+    position: fixed;
+
+    display: inline-block;
+    content: url('../images/logo.gif');
+}
+
+.btn-text{
+    margin: 1px;
+    width: 498px;
+    height: 48px;
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+
+    display: inline-block;
+    line-height: 48px;
+}

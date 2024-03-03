@@ -1,0 +1,104 @@
+/* 
+EXAMPLE CODE: 
+
+.platform-{
+    content: url('../images/social-media-icons/PLATFORM_HERE/Negative.png');
+    transition: content 0.1s ease-in-out;
+}
+
+.platform-:hover{
+    content: url('../images/social-media-icons/PLATFORM_HERE/Original.png');
+} 
+
+*/
+
+/*? ------------------------------------------------------------------------- */
+/*? X */
+/*? ------------------------------------------------------------------------- */
+
+.platform-x{
+    content: url('../images/social-media-icons/x/Negative.png');
+    transition: content 0.1s ease-in-out;
+}
+
+.platform-x:hover{
+    content: url('../images/social-media-icons/x/Original.png');
+} 
+
+/*? ------------------------------------------------------------------------- */
+/*? FACEBOOK */
+/*? ------------------------------------------------------------------------- */
+
+.platform-facebook{
+    content: url('../images/social-media-icons/facebook/Negative.png');
+    transition: content 0.1s ease-in-out;
+}
+
+.platform-facebook:hover{
+    content: url('../images/social-media-icons/facebook/Original.png');
+} 
+
+/*? ------------------------------------------------------------------------- */
+/*? YOUTUBE */
+/*? ------------------------------------------------------------------------- */
+
+.platform-youtube{
+    content: url('../images/social-media-icons/youtube/Negative.png');
+    transition: content 0.1s ease-in-out;
+}
+
+.platform-youtube:hover{
+    content: url('../images/social-media-icons/youtube/Original.png');
+} 
+
+/*? ------------------------------------------------------------------------- */
+/*? TWITCH */
+/*? ------------------------------------------------------------------------- */
+
+.platform-twitch{
+    content: url('../images/social-media-icons/twitch/Negative.png');
+    transition: content 0.1s ease-in-out;
+}
+
+.platform-twitch:hover{
+    content: url('../images/social-media-icons/twitch/Original.png');
+} 
+
+/*? ------------------------------------------------------------------------- */
+/*? TIKTOK */
+/*? ------------------------------------------------------------------------- */
+
+.platform-tiktok{
+    content: url('../images/social-media-icons/tiktok/Negative.png');
+    transition: content 0.1s ease-in-out;
+}
+
+.platform-tiktok:hover{
+    content: url('../images/social-media-icons/tiktok/Original.png');
+} 
+
+/*? ------------------------------------------------------------------------- */
+/*? DISCORD */
+/*? ------------------------------------------------------------------------- */
+
+.platform-discord{
+    content: url('../images/social-media-icons/discord/Negative.png');
+    transition: content 0.1s ease-in-out;
+}
+
+.platform-discord:hover{
+    content: url('../images/social-media-icons/discord/Original.png');
+} 
+
+/*? ------------------------------------------------------------------------- */
+/*? GITHUB */
+/*? ------------------------------------------------------------------------- */
+
+.platform-github{
+    content: url('../images/social-media-icons/github/Negative.png');
+    transition: content 0.1s ease-in-out;
+}
+
+.platform-github:hover{
+    content: url('../images/social-media-icons/github/Original.png');
+}
