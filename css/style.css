@@ -14,6 +14,10 @@
 body{
     background-color: #04040A;
     padding: 2%;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 h1, h2, h3{
